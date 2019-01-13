@@ -13,6 +13,6 @@ RUN set -e -u -x \
 \
     && apk add --no-cache --no-progress bash
 
-COPY rootfs/. /
+COPY rootfs/ /
 
 ENTRYPOINT [ "docker-entrypoint.sh" ]
