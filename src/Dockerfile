@@ -1,7 +1,7 @@
 FROM docker:stable
 
 LABEL \
-    maintainer="Morgan Auchede <morgan.auchede@gmail.com>"
+    maintainer="Morgan AUCHEDE <morgan.auchede@gmail.com>"
 
 ENV \
     PGDATA=/var/lib/postgresql/data \
